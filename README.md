@@ -18,6 +18,6 @@ pip install -r requirements.txt
 
 ## Streamlit Dashboard
 
-(https://ml-lab01.streamlit.app) 
+https://ml-lab01.streamlit.app
 
 The app trains a Random Forest on **all rows in the dataset** when it starts. This differs from the notebook, which holds out a test set to evaluate the models. Enter a product type and sensor measurements to get a datapoint classification and estimated failure probability. This is an educational demo using simulated data.
