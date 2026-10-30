@@ -3,14 +3,10 @@ venv/
 __pycache__/
 *.pyc
 .env
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-artifacts/*
-!artifacts/.gitkeep
 *.png
 *.joblib
 *.pkl
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 .DS_Store
+.vscode/
