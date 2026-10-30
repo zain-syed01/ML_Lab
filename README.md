@@ -16,12 +16,8 @@ Install the dependencies and open `main_notebook.ipynb` in Jupyter or VS Code. K
 pip install -r requirements.txt
 ```
 
-## Run the dashboard
+## Streamlit Dashboard
 
-With the dataset and dashboard file in the project folder, run:
-
-```bash
-streamlit run streamlit_dashboard.py
-```
+(https://ml-lab01.streamlit.app) 
 
 The app trains a Random Forest on **all rows in the dataset** when it starts. This differs from the notebook, which holds out a test set to evaluate the models. Enter a product type and sensor measurements to get a datapoint classification and estimated failure probability. This is an educational demo using simulated data.
